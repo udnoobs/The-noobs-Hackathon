@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="com.css">
+	<link rel="stylesheet" type="text/css" href="nearme.css">
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Friendly Groceries</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="home.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="active"><a href="nearme.html">Near Me</a></li>
+        <li><a href="sign.html">Login/Register</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categories <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Vegetables</a></li>
+            <li><a href="#">Fruits</a></li>
+            <li><a href="#">Bakeries</a></li>
+            <li><a href="#">Chocolates</a></li>
+            <li><a href="#">Dry Foods</a></li>
+            <li><a href="#">Beverages</a></li>
+            <li><a href="#">Can Goods</a></li>
+            <li><a href="#">Meat Items</a></li>
+            <li><a href="#">Frozen Goods</a></li>
+            <li><a href="#">Cleaners</a></li>
+            <li><a href="#">Personal Care</a></li>
+            <li><a href="#">Others</a></li>
+          </ul>
+        </li>
+      <li><a href="cart.html">Cart</a></li>
+      </ul>
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Go</button>
+      </form>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+  <div class="container" style="margin-top: 58px;">
+   <p class="gps text-center" style="width: 1205px;margin-left:-15px">Turn On GPS<br>For exact location<br>
+      <input type="checkbox" checked="checked" name="remember"> GPS
+        </p>
+    <div class="row">
+        <div class="col-md-4" style="background: #81a8c4; line-height: 2">
+            <form>
+  <div class="form-group" >
+    <label for="area">Area</label>
+    <input type="text" class="form-control" id="area" placeholder="Area">
+  </div>
+  <div class="form-group">
+    <label for="martname">Mart Name</label>
+    <input type="text" class="form-control" id="martname" placeholder="Mart Name">
+  </div>
+  <div class="form-group">
+    <h4>Price</h4>
+    <label for="price">Rs </label>
+    <input type="number" class="form-control" id="price">
+    <label for="price">To </label>
+    <input type="number" class="form-control" id="price">
+  </div>
+    <button type="submit" class="btn btn-default" style="margin-bottom: 10px">Apply Filter</button>
+</form>
+        </div>
+
+        <div class="col-md-8">
+          <img src="img/map.png" height="500px" width="800px">
+        </div>
+    </div> 
+    </div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

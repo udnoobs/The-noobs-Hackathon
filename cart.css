@@ -1,0 +1,21 @@
+table{
+    text-align: center;
+    color:#911515;
+    border-spacing: 5px;
+    margin:auto;
+    width: 70%;
+    line-height: 1.5;
+    border-color:#771919;
+    
+}
+img{
+    height: 200px;
+    width: 200px;
+    }
+    button[type=submit]{
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}

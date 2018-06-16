@@ -1,0 +1,19 @@
+.gps{
+	margin: 0px;
+	color:white;
+	line-height: 1.5;
+	text-align: center;
+	background-color: #696e75;
+}
+.side{
+	margin: 0px;
+	background:#81a8c4;
+	padding: 10px;
+	float: left;
+	padding:10px 0px 0px 9px;
+	font-size: 15px;
+	line-height:3;
+}
+img{
+	padding-left: 25px;
+}

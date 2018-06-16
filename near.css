@@ -1,0 +1,71 @@
+.gps{
+	margin: 0px;
+	color:white;
+	line-height: 1.5;
+	text-align: center;
+	background-color: #696e75;
+}
+.side{
+	margin: 0px;
+	background:#81a8c4;
+	padding: 10px;
+	float: left;
+	padding:10px 0px 0px 9px;
+	font-size: 15px;
+	line-height:3;
+}
+.search{
+	font-size: 20px;
+}
+button[type=submit]{
+	padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+button:hover{
+	opacity: 0.8;
+}
+
+table{
+	text-align: center;
+	color:#911515;
+	border-spacing: 5px;
+ 	margin:0px;
+    width: 70%;
+   	line-height: 1.5;
+   	border-color:#771919;
+    
+}
+tr:hover {
+	background-color: #b1bfce;
+}
+.checked {
+    color: orange;
+}
+.head{
+	color: #3632a8;
+	font-size: 20px;
+}
+.table a{
+	color: black;
+}
+img{
+	height: 200px;
+	width: 200px;
+}
+.page{
+	float: right;
+	margin: 35px;
+	
+}
+.page li{
+	float: left;
+	padding: 10px;
+
+}
+.page a{
+	background:#b8cced; 
+	padding: 10px;
+}

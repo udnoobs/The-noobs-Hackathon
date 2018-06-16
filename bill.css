@@ -1,0 +1,17 @@
+.container{
+    margin: auto;
+    width: 50%;
+    line-height: 2;
+}
+.container button{
+    background-color:rgb(13, 150, 45);
+    padding: ;
+    margin: 8px ;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+.container button:hover{
+    opacity:0.5;
+    
+}
